@@ -1,0 +1,58 @@
+<html>
+    <head>
+            <title >calculator</title>
+            <link rel="stylesheet" type="text/css" href="calculator.css">
+            <body>
+                <center><h2>calculator</h2></center>
+                <table border="3px" width="300px" cellspacing="20px" cellpadding="10px" align="center"
+                    border-radius= "10px"
+                    >
+                    <tr>
+                        <td colspan ="5" style="border:0px">
+                            <div  id="txtAns" style="width:250px; height:100px;"> </div>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td class="first_row" id="mc">MC</td>
+                       <td class="first_row" id="mr">MR</td>
+                       <td class="first_row" id="m+">M+</td>
+                       <td class="first_row" id="m-">M-</td>
+                       <td class="first_row1" onclick="clear()">CE</td>
+                   </tr>
+                   <tr>
+                        <td class="second_row" id="7" onclick="digitPress(7)">7</td>
+                        <td class="second_row" id="8">8</td>
+                        <td class="second_row" id="9">9</td>
+                        <td class="second_row1" id="/">/</td>
+                        <td class="second_row1" id="po">^</td>                      
+                
+                    </tr>
+                    <tr>
+                            <td class="third_row" id="4">4</td>
+                            <td class="third_row" id="5">5</td>
+                            
+                            <td class="third_row" id="6">6</td>
+                            <td class="second_row1" id="multiply">*</td>
+                            <td class="second_row1" id="modulus">%</td>
+                        </tr>
+                        <tr>
+                                <td class="fourth_row" id="1">1</td>
+                                <td class="fourth_row" id="2">2</td>
+                                <td class="fourth_row" id="3">3</td>
+                                <td class="second_row1" id="sub">-</td>
+                                <td class="second_row1" id="kuchbhi">1/X</td>
+                            </tr>
+                            <tr>
+                                    <td class="fifth_row" id="0">0</td>
+                                    <td class="fifth_row" id="decimal">.</td>
+                                    <td class="fifth_row" id="kuchbhi2">+/-</td>
+                                    <td class="second_row1" id="add">+</td>
+                                    <td class="second_row1" id="equals">=</td>
+                                </tr>
+
+                    </table>
+
+
+                    <script src="calculator.js" ></script>
+            </body>
+    </head>

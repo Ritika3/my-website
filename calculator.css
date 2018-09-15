@@ -1,0 +1,55 @@
+.first_row {
+    background-image: linear-gradient(to bottom right,#90f121,#1cfd1c);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.first_row1  {
+    background-color: #FFC107;
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+
+}
+.second_row {
+    background-image: linear-gradient(to bottom right,#ecf5f5,#14a5d4);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.third_row {
+    background-image: linear-gradient(to bottom right,#ecf5f5,#14a5d4);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+
+}
+.fourth_row {
+    background-image: linear-gradient(to bottom right,#ecf5f5,#14a5d4);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.fifth_row {
+    background-image: linear-gradient(to bottom right,#ecf5f5,#14a5d4);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.second_row1 {
+    background-image: linear-gradient(to bottom right,#90f121,#1cfd1c);
+    border-radius: 10px;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+table {
+    background: pink;
+}
